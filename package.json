@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "kotlin": "1.2.60",
+    "requirejs": "2.3.5"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1"
+  }
+}
