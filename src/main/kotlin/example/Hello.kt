@@ -1,8 +1,8 @@
 package example
 
+@JsModule("some-module")
+external val someModule: String = definedExternally
+
 fun main(args: Array<String>) {
-    console.log(hello("Kotlin JS"))
+    println(someModule)
 }
-
-fun hello(name:String) = "Hello, $name!"
-
